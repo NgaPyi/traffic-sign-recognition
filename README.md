@@ -1,15 +1,14 @@
-# icv-m1-project
-Introduction to Human and Computer Vision project
+# Traffic Sign Detector
 
+This project contains a *Matlab* implementation of classical computer vision techniques to detect traffic signs from photographs taken from cars while driving.
 
-* Use TrafficSignDetection.m as a template for your code. This functions shows hot to use the evaluation functions.
+It was done during the **Introduction to Human and Computer Vision** module inside the **Master in Computer Vision Barcelona**.
 
-* Use test_submission.m to test your results submissions to the course server 
+The approach could be summarized as the following:
 
+- Simple colour-based segmentation + Watershed segmentation
+- Morphological filtering
+- Geometrical filtering
+- Template matching
 
-* Useful resources:
-  - Circle detection: circular_hough/
-  - Segmentation with UCM: segment_ucm/   (only for linux & Mac OSX. Can not be used on Windows)
-  - Color space conversion: colorspace/
-  - Evaluation (Precision, recall, etc.): evaluation/ 
-  - [Segmentation](https://es.mathworks.com/matlabcentral/fileexchange/52698-k-means--mean-shift-and-normalized-cut-segmentation) (Mean-shift, k-means, etc.): 
+For more information check the [report](report.pdf) from the same repository.
